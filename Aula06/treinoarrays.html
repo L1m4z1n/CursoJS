@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Arrays</title>
+</head>
+<body>
+    <script>
+        var dinossauro = ["T-Rex", "Velociraptor", "Stegosaurus"];
+        document.write(`${dinossauro[1]}\n`);
+
+        var animal = ["Cat", "Dog", "Llama"];
+        document.write(`${animal.length}`);
+
+        var lastanimal = animal.pop()
+        document.write(`${animal.pop(animal)}`)
+
+        var n=10;
+        document.write(`${Math.random(n)}`)
+    </script>
+
+    <h1>
+        Desafio 1 - Maquina de insultos
+    </h1>
+
+    <script>
+        var randomParts =["Face", "Nariz", "Cabelo"];
+        var randomPart = randomParts[Math.floor(Math.random() * 3)];
+        var randomAdjectives = ["Fedido", "Tedioso", "Estupido"];
+        var randomAdjective = randomAdjectives[Math.floor(Math.random()*3)];
+        var randomWords =["Voar", "Marmota", "Grudar", "Macaco", "Rato"];
+        var randomWord = randomWords[Math.floor(Math.random()*5)]
+        var randomInsult = document.write(`Seu ${randomPart} é como um ${randomAdjective} ${randomWord}!!!`);
+    </script>
+
+    <h1> Desafio 2</h1>
+    <script>
+        var partesCorpo = ["Cabeça", "Orelha", "Pescoço"];
+        var partecorpo = partesCorpo[Math.floor(Math.random()*3)];
+        var adjetivos=["Grande", "Feia", "Nojenta"];
+        var adjetive=adjetivos[Math.floor(Math.random()*3)];
+        var animais= ["Cachalote", "Elefante", "Macaco", "Girafa", "Caraca"];
+        var anima = animais[Math.floor(Math.random()*5)];
+        var result = document.write(`Seu(a) ${partecorpo} é muito ${adjetive} parece com a de um(a) ${anima}!!`);
+    </script>
+</body>
+</html>

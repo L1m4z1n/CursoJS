@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body onload="enviar()">
+   
+        
+            <h1>Tabuada</h1>
+        <div class="conteiner">
+            <div class="itens">
+                <input type="number" name="a">
+                <br>
+
+                <select name="tabuada" id="tabuada">
+                    <optgroup label="Operações">
+                        <option value="1">Soma</option>
+                        <option value="2">Subtração</option>
+                        <option value="3">Multiplicação</option>
+                        <option value="4">Divisão</option>
+                    </optgroup>
+                </select>
+
+                <br>
+                <input type="number" name="b">
+                <br>
+                <button type="button" onclick="enviar()">Enviar</button>
+            
+        </div>
+        </div>
+
+        <div id="msg">
+
+        </div>
+   
+        <script src="script.js">
+           
+        </script>
+</body>
+</html>

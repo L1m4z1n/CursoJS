@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de Objetos</title>
+</head>
+<body>
+    <h1>Treino de Objetos</h1>
+    <script>
+        var cat={}
+            cat.legs= 3;
+            cat.name= "Harmony",
+            cat.Color= "Roxo"
+        ;
+        document.write(`${cat.name}`)
+
+    </script>
+
+    <h1>Desafio 1 - Sobre Objetos</h1>
+    <script>
+        var scores={
+            "Gabriel": {
+                Acertos: 20,
+                Erros:5,
+                Pontuação: 15,
+            },
+            "Josue":{
+                Acertos:25,
+                Erros: 6,
+                Pontuação:19,
+            },
+            "Nicolle":{
+                Acertos:25,
+                Erros:0,
+                Pontuação:25,
+            }
+        };
+        
+            document.write(`Os alunos ${Object.keys(scores)} estão na disputa do campeonato!!`)
+        
+    </script>
+</body>
+</html>
